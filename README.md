@@ -6,7 +6,16 @@ Then solved captcha manually. And you are good to go.
 
 ---
 
+## 🧰 How It Works
 
+1. Paste a **Lazada product URL** and enter a product name.
+2. The browser window will open automatically.
+3. ✅ **Wait a few seconds** until the CAPTCHA appears.
+4. 🧠 **Solve the CAPTCHA manually** (e.g., slide to verify).
+5. Once done, the scraper will proceed automatically and collect reviews.
+6. Reviews will be displayed in a table and can be downloaded.
+
+---
 ### 🧰 Requirements
 Python 3.9+
 selenium
