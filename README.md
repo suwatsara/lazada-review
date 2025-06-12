@@ -17,12 +17,31 @@ Then solved captcha manually. And you are good to go.
 
 ---
 ### Requirements
-Python 3.9+
+python 3.9+
 selenium
 beautifulsoup
 
 ### Install dependencies
-
-```bash
+bash
 pip install -r requirements.txt
+
+then streamlit run app.py
+
+#### Note
+Works on Windows with local chromedriver.exe (Chrome must be installed).
+This version uses Selenium to automate interaction with the review API via a visible browser.
+CAPTCHA must be solved manually once per session.
+Recommended: Run locally. For web deployment, consider replacing Selenium with Playwright and using DOM scraping.
+
+
+### Structure
+├── app.py                   # Streamlit user interface
+├── scraper_module.py        # Scraper logic (Selenium-based)
+├── requirements.txt
+├── chromedriver.exe         # Must match your Chrome version
+
+
+
+
+
 
