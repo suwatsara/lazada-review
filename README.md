@@ -22,7 +22,7 @@ selenium
 beautifulsoup
 
 ### Install dependencies
-bash
+```bash
 pip install -r requirements.txt
 
 then streamlit run app.py
@@ -35,6 +35,7 @@ Recommended: Run locally. For web deployment, consider replacing Selenium with P
 
 
 ### Structure
+```bash
 ├── app.py                   # Streamlit user interface
 ├── scraper_module.py        # Scraper logic (Selenium-based)
 ├── requirements.txt
