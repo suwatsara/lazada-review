@@ -1,12 +1,13 @@
-# 🛒 Lazada Product Review Scraper (DOM Version)
+### 🛒 Lazada Product Review Scraper (Local only)
 
-This web app allows you to scrape customer reviews from **Lazada product pages** using Playwright and Streamlit.  
-No API access, no CAPTCHA solving required — it simply extracts reviews from the public product page's DOM.
+This web app allows you to scrape customer reviews from **Lazada product pages** using Selenium and Streamlit.  
+After put Lazada product url and product name, a webpage will show up, please wait a bit until the captcha is shown.
+Then solved captcha manually. And you are good to go.
 
 ---
 
 
-## 🧰 Requirements
+### 🧰 Requirements
 Python 3.9+
 selenium
 beautifulsoup
