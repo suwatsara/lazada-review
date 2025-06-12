@@ -16,16 +16,6 @@ Then solved captcha manually. And you are good to go.
 6. Reviews will be displayed in a table and can be downloaded.
 
 ---
-### Requirements
-python 3.9+
-selenium
-beautifulsoup
-
-### Install dependencies
-```bash
-pip install -r requirements.txt
-
-then streamlit run app.py
 
 #### Note
 Works on Windows with local chromedriver.exe (Chrome must be installed).
@@ -34,14 +24,28 @@ CAPTCHA must be solved manually once per session.
 Recommended: Run locally. For web deployment, consider replacing Selenium with Playwright and using DOM scraping.
 
 
-### Structure
+### Requirements
+python 3.9+
+selenium
+beautifulsoup
+
+
+### Install dependencies
 ```bash
+pip install -r requirements.txt
+streamlit run app.py
+
+```
+
+
+### Structure
+```
 ├── app.py                   # Streamlit user interface
 ├── scraper_module.py        # Scraper logic (Selenium-based)
 ├── requirements.txt
 ├── chromedriver.exe         # Must match your Chrome version
 
-
+```
 
 
 
